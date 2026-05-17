@@ -12,7 +12,7 @@ const [comment,setComment]=useState("");
 
 const [comments,setComments]=useState([]);
 
-  const handleComment = async () => {
+const handleComment = async () => {
 const [commentMessage,setCommentMessage]=
 useState("");
 
@@ -30,11 +30,12 @@ useState([]);
         "http://localhost:8000/comment",
         {
           method: "POST",
-
+        })
+      }
 /* COMMENT */
 
 
-const handleComment=()=>{
+const handleComment2=()=>{
 
 if(comment.trim()==="") return;
 
